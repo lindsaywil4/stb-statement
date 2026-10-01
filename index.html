@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Houston residents: add your story and sign a public comment to the Surface Transportation Board on the Union Pacific and Norfolk Southern merger (Docket FD 36873). English y español.">
+<meta property="og:title" content="Tell the Surface Transportation Board what these trains mean for Houston">
+<meta property="og:description" content="Add your story and sign a public comment on the Union Pacific and Norfolk Southern merger, Docket FD 36873. English y español.">
+<meta property="og:type" content="website">
+<title>FD 36873 Resident Statement</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&family=Caveat:wght@500&display=swap">
+<style>
+html{-webkit-text-size-adjust:100%}
+body{margin:0}
+/* Layout: a single filing column, like the paper statement, with numbered steps down the left edge; organizer roster below for editors. */
+:root{
+  --bg:#f3f4f2; --paper:#ffffff; --ink:#1c2426; --muted:#5b6669; --line:#d5dad8;
+  --accent:#9c3d12; --accent-ink:#ffffff; --ok:#2f6b3f; --warn:#8a5a00; --field:#fbfbfa;
+  --display:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#151a1b; --paper:#1d2426; --ink:#e7ebea; --muted:#9aa5a7; --line:#344043;
+  --accent:#e0804f; --accent-ink:#1a1310; --ok:#7fc18f; --warn:#e2b454; --field:#182022; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#151a1b; --paper:#1d2426; --ink:#e7ebea; --muted:#9aa5a7; --line:#344043;
+  --accent:#e0804f; --accent-ink:#1a1310; --ok:#7fc18f; --warn:#e2b454; --field:#182022; color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font-family:var(--display);font-size:15px;line-height:1.5;padding-inline:16px;padding-block:0 48px}
+.wrap{max-width:760px;margin:0 auto}
+.docket{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding-block:18px 10px;border-bottom:1px solid var(--line)}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-block:22px 6px}
+h1{font-size:clamp(26px,5vw,34px);line-height:1.15;margin:0;font-weight:700;text-wrap:balance;letter-spacing:-.01em}
+.sub{color:var(--muted);margin:6px 0 0}
+.lang{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;background:var(--paper)}
+.lang button{border:0;background:transparent;color:var(--ink);font:600 13px var(--display);padding:7px 14px;cursor:pointer}
+.lang button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.step{display:grid;grid-template-columns:34px minmax(0,1fr);gap:14px;margin-top:30px}
+.num{font-family:var(--mono);font-size:13px;font-weight:500;width:30px;height:30px;border-radius:50%;border:1.5px solid var(--ink);display:grid;place-items:center;margin-top:2px}
+.step h2{font-size:18px;margin:4px 0 4px;font-weight:700}
+.hint{color:var(--muted);font-size:14px;margin:0 0 12px}
+.letter{background:var(--paper);border:1px solid var(--line);border-radius:4px;padding:22px 24px;font-family:var(--body);font-size:16px;line-height:1.6}
+.letter p{margin:0 0 12px;max-width:65ch}
+.addr{font-size:14px;color:var(--muted);line-height:1.45}
+.re{font-weight:600}
+.asks{margin:0;padding:0;list-style:none;display:grid;gap:14px}
+.asks li{display:grid;grid-template-columns:22px minmax(0,1fr);gap:6px}
+.asks b{display:block;font-family:var(--display);font-size:15px}
+.asks .n{font-family:var(--mono);font-weight:500;color:var(--accent)}
+label{display:block;font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:5px}
+.opt{font-weight:400;text-transform:none;letter-spacing:0}
+input[type=text],input[type=email],input[type=tel],input[type=number],textarea{width:100%;font:16px var(--display);color:var(--ink);background:var(--field);border:1px solid var(--line);border-radius:4px;padding:10px 12px}
+textarea{font-family:var(--body);min-height:190px;resize:vertical;line-height:1.55}
+input:focus-visible,textarea:focus-visible,button:focus-visible,.check input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:14px}
+.c6{grid-column:span 6}.c4{grid-column:span 4}.c3{grid-column:span 3}.c2{grid-column:span 2}
+@media (max-width:560px){.c4,.c3,.c2{grid-column:span 6}}
+.counter{font-family:var(--mono);font-size:12px;color:var(--muted);text-align:right;margin-top:4px}
+.sigbox{background:var(--paper);border:1px solid var(--line);border-radius:4px;padding:12px}
+.sigtabs{display:flex;gap:6px;margin-bottom:10px}
+.sigtabs button{font:600 13px var(--display);border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:4px;padding:6px 12px;cursor:pointer}
+.sigtabs button[aria-pressed="true"]{border-color:var(--ink);background:var(--ink);color:var(--paper)}
+.pad{position:relative;height:160px;border-bottom:1.5px solid var(--ink);background:#fff;border-radius:3px 3px 0 0;touch-action:none}
+.pad canvas{position:absolute;inset:0;width:100%;height:100%;cursor:crosshair}
+.pad .x{position:absolute;left:10px;bottom:6px;font:600 18px var(--mono);color:#8a9396;pointer-events:none}
+.typed{height:160px;display:grid;place-items:center;background:#fff;border-bottom:1.5px solid var(--ink);border-radius:3px 3px 0 0;font:500 44px "Caveat",cursive;color:#14213d;padding:0 12px;text-align:center;overflow:hidden}
+.sigfoot{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;margin-top:8px;font-size:13px;color:var(--muted)}
+.linkbtn{background:none;border:0;color:var(--accent);font:600 13px var(--display);cursor:pointer;padding:4px 0}
+.checks{display:grid;gap:10px;margin-top:4px}
+.check{display:grid;grid-template-columns:22px minmax(0,1fr);gap:8px;align-items:start;font-size:15px}
+.check input{width:18px;height:18px;margin-top:2px;accent-color:var(--accent)}
+.consent{background:var(--paper);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:4px;padding:14px 16px}
+.consent small{display:block;color:var(--muted);font-size:13px;margin-top:6px}
+.btn{font:700 15px var(--display);border:0;border-radius:4px;padding:13px 20px;cursor:pointer;background:var(--accent);color:var(--accent-ink)}
+.btn.secondary{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+.actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:18px}
+.err{color:var(--accent);font-size:14px;font-weight:600;margin-top:10px}
+.fielderr{outline:2px solid var(--accent)!important}
+.done{background:var(--paper);border:1px solid var(--line);border-radius:4px;padding:22px 24px;margin-top:30px}
+.done h2{margin:0 0 6px;font-size:22px}
+.status{font-size:14px;margin-top:10px}
+.status.ok{color:var(--ok)} .status.warn{color:var(--warn)}
+.org{margin-top:48px;border-top:2px solid var(--ink);padding-top:18px}
+.org h2{margin:0;font-size:20px}
+.orgbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:12px 0 14px}
+.tablewrap{overflow-x:auto;background:var(--paper);border:1px solid var(--line);border-radius:4px}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:620px}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600}
+td.num2{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+.chip{display:inline-block;font:500 11px var(--mono);border:1px solid var(--line);border-radius:999px;padding:1px 7px;margin:0 4px 2px 0;color:var(--muted)}
+.rowbtns{display:flex;gap:10px;white-space:nowrap}
+.empty{padding:22px;color:var(--muted);text-align:center}
+.foot{margin-top:36px;font-size:12.5px;color:var(--muted)}
+.collect{margin-top:14px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+</head>
+<body>
+<div class="wrap">
+  <div class="docket"><span data-i="band">Surface Transportation Board | Public Comment</span><span>Docket No. FD 36873</span></div>
+
+  <div class="topbar">
+    <div>
+      <h1 data-i="title">Statement of a Houston Resident</h1>
+      <p class="sub" data-i="subtitle">Union Pacific and Norfolk Southern merger | Docket No. FD 36873</p>
+    </div>
+    <div class="lang" role="group" aria-label="Language / Idioma">
+      <button type="button" id="lang-en" aria-pressed="true">English</button>
+      <button type="button" id="lang-es" aria-pressed="false">Español</button>
+    </div>
+  </div>
+
+  <form id="form" novalidate>
+    <div style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden" aria-hidden="true"><label for="website">Website</label><input type="text" id="website" tabindex="-1" autocomplete="off"></div>
+    <section class="step">
+      <div class="num">1</div>
+      <div>
+        <h2 data-i="s1">Read the statement you are signing</h2>
+        <p class="hint" data-i="s1h">This is the same statement on the paper form. Your story and signature are added to it.</p>
+        <div class="letter" id="letter"></div>
+      </div>
+    </section>
+
+    <section class="step">
+      <div class="num">2</div>
+      <div>
+        <h2 data-i="s2">My experience</h2>
+        <p class="hint" data-i="s2h">Please write this in your own words. Which crossing or street? What happened, and when? How long were you stopped? Were you late to work, to school, to a hospital? Have you seen people climb through a stopped train? Specific details carry the most weight with the Board.</p>
+        <textarea id="story" maxlength="6000" aria-label="My experience"></textarea>
+        <div class="counter"><span id="storyCount">0</span> / 6000</div>
+      </div>
+    </section>
+
+    <section class="step">
+      <div class="num">3</div>
+      <div>
+        <h2 data-i="s3">Your information</h2>
+        <p class="hint" data-i="s3h">Name, address and ZIP appear on the public filing. Email and phone are for organizer follow-up only and are not filed.</p>
+        <div class="grid">
+          <div class="c6"><label for="name" data-i="fName">Print your name</label><input type="text" id="name" autocomplete="name"></div>
+          <div class="c4"><label for="street" data-i="fStreet">Street address</label><input type="text" id="street" autocomplete="street-address"></div>
+          <div class="c2"><label for="zip" data-i="fZip">ZIP code</label><input type="text" id="zip" inputmode="numeric" autocomplete="postal-code" maxlength="10"></div>
+          <div class="c3"><label for="email"><span data-i="fEmail">Email</span> <span class="opt" data-i="optional">(optional)</span></label><input type="email" id="email" autocomplete="email"></div>
+          <div class="c3"><label for="phone"><span data-i="fPhone">Phone</span> <span class="opt" data-i="optional">(optional)</span></label><input type="tel" id="phone" autocomplete="tel"></div>
+          <div class="c3"><label for="years" data-i="fYears">Years in this neighborhood</label><input type="text" id="years" inputmode="numeric" maxlength="20"></div>
+        </div>
+        <div class="checks" style="margin-top:18px">
+          <label class="check"><input type="checkbox" id="hearing"><span data-i="cHearing">I am willing to speak at a public hearing in Houston.</span></label>
+          <label class="check"><input type="checkbox" id="reporter"><span data-i="cReporter">I am willing to speak with a reporter about my experience.</span></label>
+          <label class="check"><input type="checkbox" id="updates"><span data-i="cUpdates">Please keep me updated about this merger and about hearing dates.</span></label>
+        </div>
+      </div>
+    </section>
+
+    <section class="step">
+      <div class="num">4</div>
+      <div>
+        <h2 data-i="s4">Sign</h2>
+        <p class="hint" data-i="s4h">Draw your signature with a finger or mouse, or type your name to sign.</p>
+        <div class="sigbox">
+          <div class="sigtabs" role="group">
+            <button type="button" id="sigDrawBtn" aria-pressed="true" data-i="draw">Draw</button>
+            <button type="button" id="sigTypeBtn" aria-pressed="false" data-i="type">Type</button>
+          </div>
+          <div class="pad" id="pad"><canvas id="sigCanvas" aria-label="Signature pad"></canvas><span class="x">×</span></div>
+          <div class="typed" id="typedSig" hidden></div>
+          <div class="sigfoot"><span id="sigDate"></span><button type="button" class="linkbtn" id="sigClear" data-i="clear">Clear signature</button></div>
+        </div>
+
+        <div class="consent" style="margin-top:18px">
+          <label class="check" style="font-weight:600;text-transform:none;letter-spacing:0;color:var(--ink);font-size:15px;margin:0"><input type="checkbox" id="consent"><span data-i="consent">I authorize this statement to be filed with the Surface Transportation Board in Docket No. FD 36873.</span></label>
+          <small data-i="consentNote">Filings in this docket are public records; your name, address, and statement will appear on the public docket. Email and phone are for organizer follow-up only and are not filed.</small>
+        </div>
+
+
+        <div class="actions">
+          <button type="submit" class="btn" id="submitBtn" data-i="submit">Sign and create my PDF</button>
+        </div>
+        <div class="err" id="err" role="alert" hidden></div>
+      </div>
+    </section>
+  </form>
+
+  <section class="done" id="done" hidden>
+    <h2 data-i="doneTitle">Thank you. Your statement is signed.</h2>
+    <p class="hint" style="margin:0" data-i="doneBody">Your signed statement is being sent to the organizers, who will file it with the Surface Transportation Board. You can also download a copy for your records.</p>
+    <div class="actions">
+      <button type="button" class="btn" id="dlMine" data-i="dlMine">Download my copy (PDF)</button>
+      <button type="button" class="btn secondary" id="another" data-i="another">Start a new statement</button>
+    </div>
+    <div class="status" id="doneStatus"></div>
+  </section>
+
+
+  <p class="foot" data-i="foot">Chief, Section of Administration, Office of Proceedings · Surface Transportation Board · 395 E Street SW, Washington, DC 20423-0001</p>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script>
+(function(){
+"use strict";
+
+/* ---------- Statement text (verbatim from the paper form) ---------- */
+const STATEMENT = {
+  en:{
+    band:"SURFACE TRANSPORTATION BOARD | PUBLIC COMMENT",
+    title:"Statement of a Houston Resident",
+    subtitle:"Union Pacific and Norfolk Southern merger | Docket No. FD 36873",
+    addr:["Chief, Section of Administration, Office of Proceedings","Surface Transportation Board","395 E Street SW, Washington, DC 20423-0001"],
+    re:"RE: Docket No. FD 36873, Union Pacific Corporation, Control, Norfolk Southern Corporation",
+    paras:[
+      "I am a resident of Houston, Texas. I live, work, worship, or send my children to school near Union Pacific tracks. I am submitting this statement so the Board hears from the people who live with the reality of these trains every day, and not only from the parties who can afford lawyers.",
+      "Houston already carries more blocked-crossing reports than any other city in the United States, and the crossings reported most often are Union Pacific crossings in and around the East End. The Applicants' own filing acknowledges that increased traffic and operational changes from this merger may result in additional blocked crossings. I am asking the Board to take that seriously before it decides."
+    ],
+    asksIntro:"I respectfully ask the Board to do three things:",
+    asks:[
+      ["Reconcile the data, then study the whole Houston rail complex.","Union Pacific's figures have changed across the three versions of this application. Require the company to reconcile them, and to check them against the Federal Railroad Administration's crossing inventory, so the specific impact on the East End is established. In Houston, trains on one line wait for another to clear, so a study limited to merger-affected segments will miss the delays at my crossing. Include blocked crossings, idling trains, emergency-vehicle delay, and pedestrian crossings, with counts verified against city sensor data and real observation."],
+      ["If you move forward with this merger, make the conditions real, funded, and enforceable.","Union Pacific should fund 30 percent of the studies, design, and construction of mitigation in the East End and Fifth Ward, with projects chosen through community input and built as underpasses where feasible. Add funded quiet zones, safe pedestrian crossings near schools, guaranteed clear routes for fire and ambulance, public reporting with penalties, and an oversight period long enough to hold the railroad to its word."],
+      ["Commit to long-term operational change in the Houston complex.","Freight congestion here is an operating problem with operating solutions: cap train length at 7,500 feet, the average Union Pacific states publicly; hold crossing blockages to 10 minutes, as required in much of the rest of the country; do not bring a train into the Houston complex without clearance to move all the way through it; and move train building and brake testing out of residential neighborhoods."]
+    ],
+    expHead:"MY EXPERIENCE",
+    sigHead:"SIGNATURE",
+    pdfLabels:{name:"PRINTED NAME",street:"STREET ADDRESS",zip:"ZIP CODE",date:"DATE",years:"YEARS IN THIS NEIGHBORHOOD"},
+    checks:{hearing:"I am willing to speak at a public hearing in Houston.",reporter:"I am willing to speak with a reporter about my experience.",updates:"Please keep me updated about this merger and about hearing dates."},
+    auth:"By signing, you authorize this statement to be filed with the Surface Transportation Board in Docket No. FD 36873. Filings in this docket are public records; your name, address, and statement will appear on the public docket. Email and phone are for organizer follow-up only and are not filed.",
+    esign:(d)=>"Signed electronically on "+d+" by typing or drawing a signature and checking the filing authorization.",
+    collected:"Collected by", loc:"Location", page:"Page"
+  },
+  es:{
+    band:"JUNTA DE TRANSPORTE DE SUPERFICIE | COMENTARIO PÚBLICO",
+    title:"Declaración de un Residente de Houston",
+    subtitle:"Fusión de Union Pacific y Norfolk Southern | Expediente No. FD 36873",
+    addr:["Chief, Section of Administration, Office of Proceedings","Surface Transportation Board","395 E Street SW, Washington, DC 20423-0001"],
+    re:"ASUNTO: Expediente No. FD 36873, Union Pacific Corporation, Control, Norfolk Southern Corporation",
+    paras:[
+      "Soy residente de Houston, Texas. Vivo, trabajo, asisto a la iglesia o llevo a mis hijos a la escuela cerca de las vías de Union Pacific. Presento esta declaración para que la Junta escuche a las personas que viven la realidad de estos trenes todos los días, y no solamente a las partes que pueden pagar abogados.",
+      "Houston ya registra más reportes de cruces bloqueados que cualquier otra ciudad de los Estados Unidos, y los cruces más reportados son cruces de Union Pacific en el East End y sus alrededores. La propia solicitud de las empresas reconoce que el aumento de tráfico y los cambios operativos de esta fusión podrían provocar más cruces bloqueados. Pido a la Junta que tome esto en serio antes de decidir."
+    ],
+    asksIntro:"Respetuosamente pido a la Junta tres cosas:",
+    asks:[
+      ["Reconciliar los datos y luego estudiar todo el complejo ferroviario de Houston.","Las cifras de Union Pacific han cambiado entre las tres versiones de esta solicitud. Exijan que la empresa las reconcilie y las coteje con el inventario de cruces de la Administración Federal de Ferrocarriles, para establecer el impacto específico en el East End. En Houston, los trenes de una línea esperan a que se despeje otra, así que un estudio limitado a los tramos de la fusión no captará las demoras en mi cruce. Incluyan los cruces bloqueados, los trenes detenidos, las demoras de vehículos de emergencia y los cruces peatonales, con conteos verificados con los sensores de la ciudad."],
+      ["Si siguen adelante con esta fusión, que las condiciones sean reales, financiadas y exigibles.","Union Pacific debe financiar el 30 por ciento de los estudios, el diseño y la construcción de mitigación en el East End y el Fifth Ward, con proyectos elegidos con participación de la comunidad y construidos como pasos inferiores donde sea viable. Agreguen zonas de silencio financiadas, cruces peatonales seguros cerca de las escuelas, rutas garantizadas para bomberos y ambulancias, reportes públicos con sanciones, y un periodo de supervisión suficientemente largo para exigir su cumplimiento."],
+      ["Comprometerse a cambios operativos de largo plazo en el complejo de Houston.","La congestión de carga aquí es un problema operativo con soluciones operativas: limitar los trenes a 7,500 pies, el promedio que Union Pacific declara públicamente; limitar los bloqueos de cruces a 10 minutos, como se exige en gran parte del país; no ingresar un tren al complejo de Houston sin autorización para atravesarlo por completo; y sacar el armado de trenes y las pruebas de frenos de los vecindarios residenciales."]
+    ],
+    expHead:"MI EXPERIENCIA",
+    sigHead:"FIRMA",
+    pdfLabels:{name:"NOMBRE",street:"DIRECCIÓN",zip:"CÓDIGO POSTAL",date:"FECHA",years:"AÑOS EN ESTE VECINDARIO"},
+    checks:{hearing:"Estoy dispuesto(a) a hablar en una audiencia pública en Houston.",reporter:"Estoy dispuesto(a) a hablar con un periodista sobre mi experiencia.",updates:"Por favor manténganme informado(a) sobre esta fusión y las fechas de audiencia."},
+    auth:"Al firmar, usted autoriza que esta declaración sea presentada ante la Surface Transportation Board (Expediente No. FD 36873). Los documentos son registros públicos: su nombre, dirección y declaración aparecerán en el expediente público. El correo y el teléfono no se presentan.",
+    esign:(d)=>"Firmado electrónicamente el "+d+" mediante firma escrita o dibujada y la autorización de presentación.",
+    collected:"Recolectado por", loc:"Lugar", page:"Página"
+  }
+};
+
+const UI = {
+  en:{band:"Surface Transportation Board | Public Comment",title:STATEMENT.en.title,subtitle:STATEMENT.en.subtitle,
+    s1:"Read the statement you are signing",s1h:"This is the same statement on the paper form. Your story and signature are added to it.",
+    s2:"My experience",s2h:"Please write this in your own words. Which crossing or street? What happened, and when? How long were you stopped? Were you late to work, to school, to a hospital? Have you seen people climb through a stopped train? Specific details carry the most weight with the Board.",
+    s3:"Your information",s3h:"Name, address and ZIP appear on the public filing. Email and phone are for organizer follow-up only and are not filed.",
+    fName:"Print your name",fStreet:"Street address",fZip:"ZIP code",fEmail:"Email",fPhone:"Phone",optional:"(optional)",fYears:"Years in this neighborhood",
+    cHearing:STATEMENT.en.checks.hearing,cReporter:STATEMENT.en.checks.reporter,cUpdates:STATEMENT.en.checks.updates,
+    s4:"Sign",s4h:"Draw your signature with a finger or mouse, or type your name to sign.",draw:"Draw",type:"Type",clear:"Clear signature",
+    consent:"I authorize this statement to be filed with the Surface Transportation Board in Docket No. FD 36873.",
+    consentNote:"Filings in this docket are public records; your name, address, and statement will appear on the public docket. Email and phone are for organizer follow-up only and are not filed.",
+    fCollected:"Collected by",fLocation:"Location",submit:"Sign and create my PDF",
+    doneTitle:"Thank you. Your statement is signed.",doneBody:"Your signed statement is being sent to the organizers, who will file it with the Surface Transportation Board. You can also download a copy for your records.",
+    dlMine:"Download my copy (PDF)",another:"Start a new statement",
+    orgTitle:"Collected statements",orgHint:"Visible only to you and editors you share this page with. Statements signed here while you are signed in as an editor are saved automatically.",
+    dlAll:"Download filing packet (PDF)",dlCsv:"Download follow-up list (CSV)",thDate:"Date",thName:"Name",thAddr:"Address",thFollow:"Follow-up",
+    orgEmpty:"No statements yet. The first one signed on this page while you're signed in will appear here.",
+    foot:"Chief, Section of Administration, Office of Proceedings · Surface Transportation Board · 395 E Street SW, Washington, DC 20423-0001",
+    signedOn:"Date",
+    errs:{story:"Please describe your experience (at least a sentence or two).",name:"Please print your name.",street:"Please enter your street address.",zip:"Please enter a 5-digit ZIP code.",sig:"Please sign in the box, or switch to Type and enter your name.",consent:"Please check the box authorizing the filing.",pdf:"The PDF tool didn't load. Check your connection and reload the page."},
+    saved:"Saved to the collected statements list.",notSaved:"This statement was not saved to the list. Download the PDF to keep it.",
+    dlNone:"Downloads aren't available in this view. Open the page in a browser to save the PDF.",dlDeclined:"Download canceled.",dlSaved:"PDF saved.",
+    count:(n)=>n===1?"1 statement":n+" statements",pdf:"PDF",del:"Delete",confirm:"Confirm delete",hearing:"hearing",reporter:"reporter",updates:"updates"},
+  es:{band:"Junta de Transporte de Superficie | Comentario Público",title:STATEMENT.es.title,subtitle:STATEMENT.es.subtitle,
+    s1:"Lea la declaración que va a firmar",s1h:"Es la misma declaración del formulario en papel. Su historia y su firma se agregan a ella.",
+    s2:"Mi experiencia",s2h:"Por favor escriba con sus propias palabras. ¿Cuál cruce o calle? ¿Qué pasó y cuándo? ¿Cuánto tiempo estuvo detenido? ¿Llegó tarde al trabajo, a la escuela, al hospital? ¿Ha visto a personas cruzar por debajo o entre los vagones de un tren detenido? Los detalles específicos son los que más peso tienen ante la Junta.",
+    s3:"Sus datos",s3h:"Su nombre, dirección y código postal aparecen en el expediente público. El correo y el teléfono son solo para seguimiento y no se presentan.",
+    fName:"Escriba su nombre",fStreet:"Dirección",fZip:"Código postal",fEmail:"Correo",fPhone:"Teléfono",optional:"(opcional)",fYears:"Años en este vecindario",
+    cHearing:STATEMENT.es.checks.hearing,cReporter:STATEMENT.es.checks.reporter,cUpdates:STATEMENT.es.checks.updates,
+    s4:"Firme",s4h:"Dibuje su firma con el dedo o el ratón, o escriba su nombre para firmar.",draw:"Dibujar",type:"Escribir",clear:"Borrar firma",
+    consent:"Autorizo que esta declaración sea presentada ante la Surface Transportation Board en el Expediente No. FD 36873.",
+    consentNote:"Los documentos son registros públicos: su nombre, dirección y declaración aparecerán en el expediente público. El correo y el teléfono no se presentan.",
+    fCollected:"Recolectado por",fLocation:"Lugar",submit:"Firmar y crear mi PDF",
+    doneTitle:"Gracias. Su declaración está firmada.",doneBody:"Su declaración firmada se está enviando a los organizadores, quienes la presentarán ante la Surface Transportation Board. También puede descargar una copia para usted.",
+    dlMine:"Descargar mi copia (PDF)",another:"Comenzar otra declaración",
+    orgTitle:"Declaraciones recolectadas",orgHint:"Solo usted y los editores con quienes comparta esta página pueden verlas. Las declaraciones firmadas aquí mientras usted tiene sesión como editor se guardan automáticamente.",
+    dlAll:"Descargar paquete (PDF)",dlCsv:"Descargar lista de seguimiento (CSV)",thDate:"Fecha",thName:"Nombre",thAddr:"Dirección",thFollow:"Seguimiento",
+    orgEmpty:"Todavía no hay declaraciones. La primera firmada en esta página con su sesión iniciada aparecerá aquí.",
+    foot:"Chief, Section of Administration, Office of Proceedings · Surface Transportation Board · 395 E Street SW, Washington, DC 20423-0001",
+    signedOn:"Fecha",
+    errs:{story:"Por favor describa su experiencia (al menos una o dos oraciones).",name:"Por favor escriba su nombre.",street:"Por favor escriba su dirección.",zip:"Por favor escriba un código postal de 5 dígitos.",sig:"Por favor firme en el recuadro, o elija Escribir e ingrese su nombre.",consent:"Por favor marque la casilla que autoriza la presentación.",pdf:"La herramienta de PDF no cargó. Revise su conexión y recargue la página."},
+    saved:"Guardada en la lista de declaraciones recolectadas.",notSaved:"Esta declaración no se guardó en la lista. Descargue el PDF para conservarla.",
+    dlNone:"Las descargas no están disponibles aquí. Abra la página en un navegador para guardar el PDF.",dlDeclined:"Descarga cancelada.",dlSaved:"PDF guardado.",
+    count:(n)=>n===1?"1 declaración":n+" declaraciones",pdf:"PDF",del:"Eliminar",confirm:"Confirmar",hearing:"audiencia",reporter:"prensa",updates:"noticias"}
+};
+
+let lang = "en";
+const $ = (id)=>document.getElementById(id);
+const esc = (s)=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+function todayStr(d){ d=d||new Date(); return d.toLocaleDateString(lang==="es"?"es-US":"en-US",{year:"numeric",month:"long",day:"numeric"}); }
+
+function renderLetter(){
+  const s = STATEMENT[lang];
+  $("letter").innerHTML =
+    '<p class="addr">'+s.addr.map(esc).join("<br>")+'</p>'+
+    '<p class="re">'+esc(s.re)+'</p>'+
+    s.paras.map(p=>'<p>'+esc(p)+'</p>').join("")+
+    '<p class="re">'+esc(s.asksIntro)+'</p>'+
+    '<ol class="asks">'+s.asks.map((a,i)=>'<li><span class="n">'+(i+1)+'.</span><div><b>'+esc(a[0])+'</b>'+esc(a[1])+'</div></li>').join("")+'</ol>';
+}
+function applyLang(l){
+  lang=l;
+  document.documentElement.lang=l;
+  $("lang-en").setAttribute("aria-pressed",l==="en"); $("lang-es").setAttribute("aria-pressed",l==="es");
+  document.querySelectorAll("[data-i]").forEach(el=>{ const k=el.getAttribute("data-i"); const v=UI[l][k]; if(typeof v==="string") el.textContent=v; });
+  renderLetter();
+  $("sigDate").textContent = UI[l].signedOn+": "+todayStr();
+  renderRows();
+}
+$("lang-en").onclick=()=>applyLang("en");
+$("lang-es").onclick=()=>applyLang("es");
+
+$("story").addEventListener("input",()=>{ $("storyCount").textContent=$("story").value.length; });
+
+/* ---------- Signature ---------- */
+let sigMode="draw", hasInk=false;
+const canvas=$("sigCanvas"), ctx=canvas.getContext("2d");
+let strokes=[], cur=null;
+function sizeCanvas(){
+  const r=canvas.getBoundingClientRect(), dpr=window.devicePixelRatio||1;
+  if(!r.width) return;
+  canvas.width=Math.round(r.width*dpr); canvas.height=Math.round(r.height*dpr);
+  ctx.setTransform(dpr,0,0,dpr,0,0); redraw();
+}
+function redraw(){
+  const r=canvas.getBoundingClientRect();
+  ctx.clearRect(0,0,r.width,r.height);
+  ctx.strokeStyle="#14213d"; ctx.lineWidth=2.4; ctx.lineCap="round"; ctx.lineJoin="round";
+  for(const s of strokes){ if(!s.length) continue; ctx.beginPath(); ctx.moveTo(s[0][0]*r.width,s[0][1]*r.height);
+    if(s.length===1) ctx.lineTo(s[0][0]*r.width+0.1,s[0][1]*r.height);
+    for(let i=1;i<s.length;i++) ctx.lineTo(s[i][0]*r.width,s[i][1]*r.height); ctx.stroke(); }
+}
+function pt(e){ const r=canvas.getBoundingClientRect(); return [(e.clientX-r.left)/r.width,(e.clientY-r.top)/r.height]; }
+canvas.addEventListener("pointerdown",e=>{ canvas.setPointerCapture(e.pointerId); cur=[pt(e)]; strokes.push(cur); hasInk=true; redraw(); e.preventDefault(); });
+canvas.addEventListener("pointermove",e=>{ if(!cur) return; cur.push(pt(e)); redraw(); e.preventDefault(); });
+const endStroke=()=>{ cur=null; };
+canvas.addEventListener("pointerup",endStroke); canvas.addEventListener("pointercancel",endStroke);
+window.addEventListener("resize",sizeCanvas);
+requestAnimationFrame(sizeCanvas);
+
+function setSigMode(m){
+  sigMode=m;
+  $("sigDrawBtn").setAttribute("aria-pressed",m==="draw"); $("sigTypeBtn").setAttribute("aria-pressed",m==="type");
+  $("pad").hidden = m!=="draw"; $("typedSig").hidden = m!=="type";
+  if(m==="draw") requestAnimationFrame(sizeCanvas); else updateTyped();
+}
+function updateTyped(){ $("typedSig").textContent=$("name").value.trim(); }
+$("sigDrawBtn").onclick=()=>setSigMode("draw");
+$("sigTypeBtn").onclick=()=>setSigMode("type");
+$("name").addEventListener("input",()=>{ if(sigMode==="type") updateTyped(); });
+$("sigClear").onclick=()=>{ strokes=[]; hasInk=false; redraw(); };
+
+async function signatureImage(name){
+  const H=240; let W=900;
+  if(sigMode==="draw"){ const r=canvas.getBoundingClientRect(); if(r.width&&r.height) W=Math.round(H*Math.min(5,Math.max(1.5,r.width/r.height))); }
+  const c=document.createElement("canvas"); c.width=W; c.height=H; const g=c.getContext("2d");
+  g.fillStyle="#ffffff"; g.fillRect(0,0,W,H);
+  if(sigMode==="draw"){
+    g.strokeStyle="#14213d"; g.lineWidth=4.5; g.lineCap="round"; g.lineJoin="round";
+    for(const s of strokes){ if(!s.length) continue; g.beginPath(); g.moveTo(s[0][0]*W,s[0][1]*H);
+      if(s.length===1) g.lineTo(s[0][0]*W+0.5,s[0][1]*H);
+      for(let i=1;i<s.length;i++) g.lineTo(s[i][0]*W,s[i][1]*H); g.stroke(); }
+  } else {
+    try{ await document.fonts.load('500 90px "Caveat"'); }catch(e){}
+    g.fillStyle="#14213d"; let size=110; g.font='500 '+size+'px "Caveat", cursive';
+    while(g.measureText(name).width>W-40 && size>30){ size-=6; g.font='500 '+size+'px "Caveat", cursive'; }
+    g.textAlign="center"; g.textBaseline="middle"; g.fillText(name,W/2,H/2+6);
+  }
+  return {url:c.toDataURL("image/jpeg",0.85), aspect:W/H};
+}
+
+/* ---------- PDF ---------- */
+function addStatementPages(doc, e){
+  const s=STATEMENT[e.lang]||STATEMENT.en;
+  const PW=612, PH=792, M=56, W=PW-2*M; let y=0;
+  const header=()=>{ doc.setFont("helvetica","normal"); doc.setFontSize(7.5); doc.setTextColor(95);
+    doc.text(s.band,M,38); doc.text("DOCKET NO. FD 36873",PW-M,38,{align:"right"});
+    doc.setDrawColor(190); doc.setLineWidth(0.5); doc.line(M,44,PW-M,44); doc.setTextColor(20); y=66; };
+  const need=(h)=>{ if(y+h>PH-54){ doc.addPage(); header(); } };
+  const para=(txt,size,style,gap,indent)=>{ indent=indent||0; doc.setFont("helvetica",style||"normal"); doc.setFontSize(size);
+    const lh=size*1.38; const lines=doc.splitTextToSize(txt,W-indent);
+    for(const ln of lines){ need(lh); doc.text(ln,M+indent,y+size*0.8); y+=lh; } y+=(gap??8); };
+
+  header();
+  doc.setFont("helvetica","bold"); doc.setFontSize(17); doc.text(s.title,M,y+14); y+=22;
+  doc.setFont("helvetica","normal"); doc.setFontSize(9.5); doc.setTextColor(80); doc.text(s.subtitle,M,y+8); y+=22; doc.setTextColor(20);
+  for(const a of s.addr) para(a,9.5,"normal",0); y+=4;
+  para(s.re,9.5,"bold",10);
+  for(const p of s.paras) para(p,10,"normal",8);
+  para(s.asksIntro,10,"bold",6);
+  s.asks.forEach((a,i)=>{ need(30); doc.setFont("helvetica","bold"); doc.setFontSize(10); doc.text((i+1)+".",M,y+8); para(a[0],10,"bold",2,16); para(a[1],9.5,"normal",8,16); });
+
+  y+=4; need(40);
+  doc.setDrawColor(20); doc.setLineWidth(0.8); doc.line(M,y,PW-M,y); y+=8;
+  para(s.expHead,9,"bold",4);
+  for(const block of String(e.story||"").split(/\n+/)) if(block.trim()) para(block.trim(),10.5,"normal",6);
+
+  // signature block kept together
+  need(250);
+  y+=6; doc.setLineWidth(0.8); doc.line(M,y,PW-M,y); y+=8;
+  para(s.sigHead,9,"bold",2);
+  if(e.sigImage){ try{ const ar=e.sigAspect||3.75; const h=Math.min(56,260/ar); doc.addImage(e.sigImage,"JPEG",M,y+56-h,h*ar,h); }catch(err){} }
+  y+=58; doc.setLineWidth(0.6); doc.line(M,y,M+260,y); y+=4;
+  const L=s.pdfLabels;
+  const field=(label,val,x,w)=>{ doc.setFont("helvetica","normal"); doc.setFontSize(7); doc.setTextColor(95); doc.text(label,x,y+7);
+    doc.setFontSize(10.5); doc.setTextColor(20); const v=doc.splitTextToSize(String(val||"—"),w); doc.text(v[0],x,y+21); };
+  field(L.name,e.name,M,300); field(L.date,e.dateText,M+320,W-320); y+=32;
+  field(L.street,e.street,M,300); field(L.zip,e.zip,M+320,70); field(L.years,e.years,M+395,W-395); y+=36;
+  doc.setFontSize(9.5);
+  for(const k of ["hearing","reporter","updates"]){ need(16);
+    doc.setDrawColor(60); doc.setLineWidth(0.6); doc.rect(M,y,9,9);
+    if(e[k]){ doc.setLineWidth(1.2); doc.line(M+2,y+4.5,M+4,y+7); doc.line(M+4,y+7,M+7.5,y+2); }
+    doc.setFont("helvetica","normal"); doc.text(s.checks[k],M+16,y+8); y+=15; }
+  y+=4;
+  doc.setTextColor(70); para(s.auth,7.8,"normal",4);
+  para(s.esign(e.signedAtText),7.8,"italic",2);
+  if(e.collectedBy||e.location) para(s.collected+": "+(e.collectedBy||"—")+"    "+s.loc+": "+(e.location||"—"),7.8,"normal",0);
+  doc.setTextColor(20);
+}
+function makePdf(entries){
+  const J=window.jspdf&&window.jspdf.jsPDF; if(!J) throw new Error("nopdf");
+  const doc=new J({unit:"pt",format:"letter"});
+  entries.forEach((e,i)=>{ if(i>0) doc.addPage(); addStatementPages(doc,e); });
+  const n=doc.getNumberOfPages();
+  for(let i=1;i<=n;i++){ doc.setPage(i); doc.setFont("helvetica","normal"); doc.setFontSize(7.5); doc.setTextColor(120); doc.text(i+" / "+n,612-56,792-30,{align:"right"}); }
+  return doc.output("blob");
+}
+const slug=(s)=>String(s||"statement").normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^A-Za-z0-9]+/g,"_").replace(/^_|_$/g,"").slice(0,40)||"statement";
+
+/* ---------- Where submissions go ---------- */
+// Paste your Google Apps Script web app URL here (see SETUP.md). It ends in /exec.
+const SUBMIT_URL = "PASTE_YOUR_APPS_SCRIPT_URL_HERE";
+const FORM_KEY = "fd36873-houston";   // must match FORM_KEY in Code.gs
+const pageOpened = Date.now();
+
+const MSG = {
+  en:{sending:"Sending your statement to the organizers…", sent:"Sent. The organizers have your signed statement. Thank you.",
+      failed:"We couldn't send your statement automatically. Please download your PDF and email it to the person who shared this page with you.",
+      notSet:"This page isn't connected to the organizers yet. Please download your PDF and send it to the person who shared this page."},
+  es:{sending:"Enviando su declaración a los organizadores…", sent:"Enviada. Los organizadores recibieron su declaración firmada. Gracias.",
+      failed:"No pudimos enviar su declaración automáticamente. Por favor descargue su PDF y envíelo por correo a la persona que le compartió esta página.",
+      notSet:"Esta página todavía no está conectada con los organizadores. Por favor descargue su PDF y envíelo a la persona que le compartió esta página."}
+};
+function renderRows(){}  // no organizer list on the public page
+
+function saveFile(filename, blob){
+  const url=URL.createObjectURL(blob); const a=document.createElement("a");
+  a.href=url; a.download=filename; document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(()=>URL.revokeObjectURL(url),60000);
+}
+const toBase64=(blob)=>new Promise((res,rej)=>{ const fr=new FileReader(); fr.onload=()=>res(String(fr.result).split(",")[1]); fr.onerror=rej; fr.readAsDataURL(blob); });
+
+async function sendToOrganizers(e, pdfBlob){
+  if(!/^https:\/\/script\.google\.com\//.test(SUBMIT_URL)) return "notSet";
+  const payload={ key:FORM_KEY, hp:$("website").value, elapsedMs:Date.now()-pageOpened,
+    lang:e.lang, name:e.name, street:e.street, zip:e.zip, years:e.years, email:e.email, phone:e.phone,
+    hearing:e.hearing, reporter:e.reporter, updates:e.updates, story:e.story, signedAt:e.signedAt,
+    filename:"FD36873_Statement_"+slug(e.name)+".pdf", pdf: await toBase64(pdfBlob) };
+  const ctl=new AbortController(); const timer=setTimeout(()=>ctl.abort(),45000);
+  try{
+    // A plain-text body keeps this a "simple" request, which Apps Script accepts from any website.
+    const r=await fetch(SUBMIT_URL,{method:"POST",body:JSON.stringify(payload),signal:ctl.signal});
+    const j=await r.json().catch(()=>({}));
+    return j.ok ? "sent" : "failed";
+  }catch(x){ return "failed"; }
+  finally{ clearTimeout(timer); }
+}
+
+/* ---------- Submit ---------- */
+let lastEntry=null;
+function fail(msg, el){ $("err").textContent=msg; $("err").hidden=false; if(el){ el.classList.add("fielderr"); el.focus(); el.scrollIntoView({block:"center"}); } }
+$("form").addEventListener("input",ev=>{ ev.target.classList&&ev.target.classList.remove("fielderr"); });
+$("form").addEventListener("submit",async ev=>{
+  ev.preventDefault(); $("err").hidden=true;
+  document.querySelectorAll(".fielderr").forEach(x=>x.classList.remove("fielderr"));
+  const t=UI[lang].errs, v=id=>$(id).value.trim();
+  if(v("story").length<15) return fail(t.story,$("story"));
+  if(!v("name")) return fail(t.name,$("name"));
+  if(!v("street")) return fail(t.street,$("street"));
+  if(!/^\d{5}(-\d{4})?$/.test(v("zip"))) return fail(t.zip,$("zip"));
+  if(sigMode==="draw" ? !hasInk : !v("name")) return fail(t.sig,$("pad"));
+  if(!$("consent").checked) return fail(t.consent,$("consent"));
+  if(!(window.jspdf&&window.jspdf.jsPDF)) return fail(t.pdf);
+
+  $("submitBtn").disabled=true;
+  const now=new Date();
+  const e={
+    lang, name:v("name"), street:v("street"), zip:v("zip"), years:v("years"), email:v("email"), phone:v("phone"),
+    story:$("story").value.trim(), hearing:$("hearing").checked, reporter:$("reporter").checked, updates:$("updates").checked,
+    consent:true, sigMode,
+    signedAt: now.toISOString(), dateText: todayStr(now),
+    signedAtText: now.toLocaleString(lang==="es"?"es-US":"en-US",{dateStyle:"long",timeStyle:"short",timeZone:"America/Chicago"})+" CT",
+    channel:"digital"
+  };
+  const sig=await signatureImage(e.name); e.sigImage=sig.url; e.sigAspect=sig.aspect;
+  let pdfBlob;
+  try{ pdfBlob=makePdf([e]); }catch(x){ $("submitBtn").disabled=false; return fail(t.pdf); }
+  lastEntry=e; lastBlob=pdfBlob;
+  $("form").hidden=true; $("done").hidden=false;
+  $("doneStatus").className="status"; $("doneStatus").textContent=MSG[lang].sending;
+  window.scrollTo({top:$("done").offsetTop-20});
+  const result=await sendToOrganizers(e,pdfBlob);
+  $("doneStatus").className="status "+(result==="sent"?"ok":"warn");
+  $("doneStatus").textContent=MSG[lang][result];
+  $("submitBtn").disabled=false;
+});
+let lastBlob=null;
+$("dlMine").onclick=()=>{ if(!lastEntry||!lastBlob) return; saveFile("FD36873_Statement_"+slug(lastEntry.name)+".pdf", lastBlob); };
+$("another").onclick=()=>{
+  $("form").reset(); strokes=[]; hasInk=false; $("storyCount").textContent="0"; setSigMode("draw");
+  lastEntry=null; lastBlob=null; $("done").hidden=true; $("form").hidden=false; window.scrollTo({top:0});
+};
+
+applyLang("en");
+})();
+</script>
+
+</body>
+</html>
